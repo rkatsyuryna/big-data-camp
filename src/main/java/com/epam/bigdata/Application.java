@@ -3,7 +3,8 @@ package com.epam.bigdata;
 public class Application {
 
     public static void main(String[] args) {
-        System.out.print("Hello World");
+        Twit twit = new Twit("testText", "id_str");
+        System.out.println(twit);
     }
 
 }
