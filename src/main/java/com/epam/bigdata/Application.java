@@ -11,6 +11,15 @@ public class Application {
             jsonParser.getByName("id_str")
     );
 
+    Twit twitTest = new Twit(
+            null,
+            null
+    );
+
     System.out.println(twit);
+    System.out.println(twitTest);
+
+    System.out.println(twit.returnBigger(twitTest));
+    System.out.println(twitTest.returnBigger(twit));
   }
 }
