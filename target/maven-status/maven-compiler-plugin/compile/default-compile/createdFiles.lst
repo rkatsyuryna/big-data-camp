@@ -1,0 +1,4 @@
+com\epam\bigdata\Application.class
+com\epam\bigdata\WordCount.class
+com\epam\bigdata\WordCountMapper.class
+com\epam\bigdata\WordCountReducer.class
